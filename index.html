@@ -1310,7 +1310,7 @@ esphome:
        - delay: 1s           
                 `;
             }
-       if (selectedOptionValue11 === 'Enabled' || selectedOptionValue1 !== 'none' || selectedOptionValue2 !== 'none' || selectedOptionValue3 !== 'none' || selectedOptionValue4 !== 'none' || selectedOptionValue5 !== 'none' || selectedOptionValue6 !== 'none' || selectedOptionValue7 !== 'none' || selectedOptionValue8 !== 'none') {
+       if (selectedOptionValue11 === 'Enabled' || selectedOptionValue1 === '16 GPIO Rack Card 1' || selectedOptionValue2 === '16 GPIO Rack Card 2' || selectedOptionValue3 === '16 GPIO Rack Card 3' || selectedOptionValue4 == '16 GPIO Rack Card 4') {
                 additionalConfig += `   
        - text_sensor.template.publish:
           id: last_name_pressed
